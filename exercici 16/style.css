@@ -1,0 +1,24 @@
+@charset "utf8"
+{
+height: 100%;
+}
+body {background-color: #6bd8d8;}
+  
+main{width: 600px;
+padding: 10px;
+margin: auto;
+background-color: aliceblue;
+}
+
+h1 {color: #3E7C59;} 
+h2{color: #3E7C59
+
+}
+h3{color: #3E7C59;
+
+}
+h4{color: #3E7C59;}
+
+
+p {text-align: justify;}
+
