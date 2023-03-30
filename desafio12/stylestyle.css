@@ -1,17 +1,34 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Inconsolata :wght@700 & display=swap');
 
-*{margin: 0px;
+
+
+:root{
+    --fonte01:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02:'Delicious Handrawn', cursive;
+    --fonte03:'Inconsolata', monoespaçado;}
+
+
+* {margin: 0px;
 padding: 0px;}
 
 html, body{background-color: rgb(250, 249, 249);
 min-height: 100vh;
+
+
+
+
 }
 
-header{background-color: black;
+header{
+    font-family:var(--fonte03) ;
+    background-color: black;
 color: aliceblue;
 text-align: center;}
 
-header > h1 { padding-top: 50px;font-variant: small-caps;}
+header > h1 { padding-top: 50px;
+    font-variant: small-caps;}
  
 header > p {padding-bottom: 50px;}
  
@@ -21,11 +38,14 @@ font-weight: bolder;}
 
 header a:hover footer a:hover {text-decoration:  underline;}
  
-section{
+section {
+
+    font-size: 2em;
     padding-top: 11vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte02);
 }
 
 
@@ -40,6 +60,7 @@ section.normal{
 
 
 section.imagem{
+    display: inline-block;
     background-color: rgba(38, 37, 37, 0.538);
     color: aliceblue;
 
